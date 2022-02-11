@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\1cv8\8.3.20.1674\bin\1cv8c" /N"Admin" /TestManager /Execute "C:\Vanessa auto\vanessa-automation\vanessa-automation.epf" /IBConnectionString "File=""C:\Users\akhabarov\Documents\InfoBase4"";" /C"StartFeaturePlayer;QuietInstallVanessaExt;VAParams=C:\Vanessa auto\Project\git\INVITRO-VAParams\VAParams-last.json"
+allure generate --clean "C:\Vanessa auto\Project\git\INVITRO-VAParams\allure_result" && allure open
